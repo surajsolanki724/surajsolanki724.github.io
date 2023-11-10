@@ -25,9 +25,18 @@
             color: #333;
         }
 
-        h2 {
-            margin-top: 20px;
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+
+        h3 {
+            text-align: center;
             color: #333;
+            margin-bottom: 20px;
         }
 
         p {
@@ -45,15 +54,25 @@
         .link-section a:hover {
             color: #007bff;
         }
+
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 5px;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <h1>Suraj Solanki</h1>
-        <img src="IMG_20230815_163841_302.jpg" alt="Suraj Solanki" style="display: block; margin: 0 auto; border-radius: 50%; width: 200px; height: 200px;">
+        <h3>A Senior DevOps Engineer</h3>
+        <img src="IMG_20230815_163841_302.jpg" alt="Suraj Solanki">
 
-        <h2>About Me</h2>
         <p>Skilled Cloud & DevOps Engineer having 4 Years of experience on deploying and maintaining Infrastructure on AWS cloud which includes a wide range of AWS services such as EC2, S3 buckets, EBS, IAM, EFS, Route 53, lambda, CloudFront etc. I Implemented process and quality improvements through task automation. Worked on automating AWS infra with Infrastructure as a code service using Terraform, CloudFormation and routine maintenance tasks using shell script and python. I Worked on developing and maintaining fully automated CI/CD pipelines for code deployment using Jenkins & AWS CodePipeline. I Managed GitHub repositories for version control including branching and tagging. I Provisioned Docker containers and deployed features using Ansible. I Worked on orchestrating Docker container clusters using Kubernetes. I have Experience with automating the infrastructure using CloudFormation and Terraform. I Worked on AWS Control Tower to implement Disaster Recovery Setup using Cloud Endure with Advanced AWS networking. I Administered and handled Linux server operations like user creation, Cron job creation, scheduling, LVM for the better flexibility of space management. I Configured security groups for EC2 Windows and Linux instances and troubleshot TCP/IP network connectivity issues. I Worked on setting up patch management for servers maintained on AWS cloud to keep them updated with the latest patches released. And passionate about learning technologies. In the Industry this passion remains with me. There is certainly more to learn yet more problems to solve, more to build and for this, I am very grateful.</p>
 
         <div class="link-section">
@@ -70,14 +89,12 @@
             <a href="https://surajblog.medium.com">
                 <img src="medium.svg" alt="Medium" width="30" height="30">
             </a>
-            <h2>Social Media</h2>
             <a href="https://www.youtube.com/channel/UCOnzoAgntLFeKEsHWkL2x8A">
                 <img src="yt.png" alt="YouTube" width="30" height="30">
             </a>
             <a href="https://www.instagram.com/suraj_inreallife/?hl=en">
                 <img src="instagram.svg" alt="instagram" width="30" height="30">
             </a>
-
         </div>
     </div>
 </body>
