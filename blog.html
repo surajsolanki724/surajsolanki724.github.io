@@ -19,16 +19,24 @@
         <div class="container">
             <section class="section">
                 <h2 class="section-heading">Blog Posts</h2>
-                <div class="blog-posts">
-                    <a href="https://medium.com/@surajblog/velero-for-kubernetes-backup-and-restore-10fba3a5efa4" class="blog-post-link">Velero for Kubernetes Backup and Restore</a>
-                    <a href="https://medium.com/@surajblog/external-secret-operator-integration-with-azure-key-vault-6eea4168bfeb" class="blog-post-link">External Secret Operator Integration with Azure Key Vault</a>
-                    <a href="https://medium.com/@surajblog/simplified-deployment-of-kubernetes-dashboard-with-alb-ingress-controller-bf3396c0dc54" class="blog-post-link">Simplified Deployment of Kubernetes Dashboard with ALB Ingress Controller</a>
-                    <a href="https://medium.com/@surajblog/mount-aws-s3-bucket-on-amazon-ec2-9f18b48d4f04" class="blog-post-link">Mount AWS S3 Bucket On Amazon EC2</a>
-                    <a href="https://medium.com/@surajblog/effortless-kubernetes-cluster-deployment-with-kubeadm-and-containerd-58cc58f2d023" class="blog-post-link">Effortless Kubernetes Cluster Deployment with Kubeadm and Containerd</a>
-                    <a href="https://medium.com/@surajblog/streamlining-vault-resources-deployment-with-terraform-and-jenkins-ci-cd-pipeline-73683c3994bf" class="blog-post-link">Streamlining Vault Resources Deployment with Terraform and Jenkins CI/CD Pipeline</a>
-                    <a href="https://medium.com/@surajblog/chaos-testing-with-eks-cluster-and-argocd-cb2f43961dbc" class="blog-post-link">Chaos Testing with EKS Cluster and ArgoCD</a>
-                    <a href="https://medium.com/@surajblog/vault-integration-with-google-oidc-provider-f3e12c9d3ef7" class="blog-post-link">Hashicorp Vault Integration with Google OIDC Provider</a>
-                </div>
+                <form action="#">
+                    <div class="blog-posts">
+                        <input type="radio" id="post1" name="blog-post" value="https://medium.com/@surajblog/velero-for-kubernetes-backup-and-restore-10fba3a5efa4">
+                        <label for="post1">
+                            Velero for Kubernetes Backup and Restore
+                        </label><br>
+                        
+                        <input type="radio" id="post2" name="blog-post" value="https://medium.com/@surajblog/external-secret-operator-integration-with-azure-key-vault-6eea4168bfeb">
+                        <label for="post2">
+                            External Secret Operator Integration with Azure Key Vault
+                        </label><br>
+
+                        <input type="radio" id="post3" name="blog-post" value="https://medium.com/@surajblog/your-blog-post-url">
+                        <label for="post3">
+                            Your Blog Post Title
+                        </label><br>
+                    </div>
+                </form>
             </section>
         </div>
     </main>
