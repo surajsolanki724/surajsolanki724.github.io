@@ -77,12 +77,14 @@ body {
 .navbar {
     overflow: hidden;
     background-color: #333;
+    background-image: url('background.jpg');
+    background-size: cover;
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -90,16 +92,16 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
 }
 
 .navbar a.active {
-    background-color: rgba(230, 238, 230, 0.8);;
+    background-color: rgba(255, 255, 255, 0.8);
     color: #333;
 }
 .navbar a.bctive {
-    background-color: rgba(230, 238, 230, 0.8);;
+    background-color: rgba(255, 255, 255, 0.8);
     color: #333;
     float: right;
     display: block;
