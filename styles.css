@@ -73,3 +73,34 @@ body {
     display: inline-block;
     margin: 0 5px;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: rgba(230, 238, 230, 0.8);;
+    color: #333;
+}
+.navbar a.bctive {
+    background-color: rgba(230, 238, 230, 0.8);;
+    color: #333;
+    float: right;
+    display: block;
+}
